@@ -25,7 +25,7 @@ function siguentenumeroprimo( numero ) {
 }
 
 try {
-        console.log( siguentenumeroprimo (parseInt(prompt (' ingrese el numero '))));
+        alert ( siguentenumeroprimo (parseInt(prompt (' ingrese el numero '))));
 } catch (v){
-    console.log(`Error: ${v.message}`);
+    console.log(`Error: ${v.message}`); 
 }
